@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Course5-Solutions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MultiplicationTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintReversedNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SumOfDigits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindDigitFrequency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintNumberPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintNumberDigits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintLetterPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintInvertedPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintInvertedLetterPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintAllFrequenciesOfAllDigits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintAAAtoZZZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsPrime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsPerfectNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsPalindrome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPassword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptDecrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadPositiveNum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxMinInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindFrequencyInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddArrayElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddArrayElements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckNumberType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyArrayUsingAddArrayElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyDistinctArrayNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyOddArraysElementsToAnotherOne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyPrimeNumbersArraysToAnotherOne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyPrimeNumbersOfArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CountEvenNumbersInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CountNegativeNumbersInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CountOddNumbersInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CountPositiveNumbersInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FillArrayWithRandomNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindNumberInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateKeysInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetFractionPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsArrayPalindrome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsNumberInArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCeil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFloor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuffleArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SumAndAvgOfArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SumArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
