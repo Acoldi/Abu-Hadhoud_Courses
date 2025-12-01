@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Course_7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Prob1RandomatrixNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob7TransposeMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob45ReadBankClientDataRecordAndConvertItToOneLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prob2SumMatrixRows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob20IsPalindromeMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob8Multiply2Matrices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob9PrintMiddleRowAndColumn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob10SumOfMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob11AreEqualMatrices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob12AreTypicalMatrices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob13IsIdentityMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob14IsScalarMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob15NumberCountInMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob16IsSparceMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob17FindNumberInMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob18FindIntersectNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob19FindMinAndMaxInMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob6FillMatrixWithOrderedNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob3SumMatrixRowsUsingArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob4SumEachColumnInAMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob28InvertAllLetters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob21FibonacciSeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob22FibonacciRecursion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob23PrintFirstLetters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob24UpperFirstLetters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob25LowerFirstLetters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob26UpperLowerString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob27InvertLetterCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob45ConvertRecordToLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob29CountCaseLetters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob30CountLetter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob31CountLetterMatchCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob32IsVowel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob33IsVowel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob34PrintVowels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob35PrintEachWordInString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob36CountWordsInString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob37SplitString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob38Trim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob39JoinString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob40JoinStringOverloading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob41ReverseWordsInString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob42ReplaceWords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob46ConvertLineToRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob51UpdateClientByAccountNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob47AddClientsToFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob48ReadClientsFromFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob49FindClientByAccountNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob50DeleteClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob44RemovePunct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob43ReplaceWordsUsingSplit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
