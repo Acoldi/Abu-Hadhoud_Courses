@@ -1,6 +1,0 @@
-﻿  Course5-Solutions.cpp
-C:\Users\HP\source\repos\Course5-Solutions\MyCeil.h(14,12): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'Course5-Solutions.cpp')
-  
-C:\Users\HP\source\repos\Course5-Solutions\KeyGenerator.h(25,1): warning C4715: 'GetRandomCharacters': not all control paths return a value
-  Course5-Solutions.vcxproj -> C:\Users\HP\source\repos\Course5-Solutions\x64\Debug\Course5-Solutions.exe
