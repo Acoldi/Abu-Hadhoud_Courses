@@ -151,24 +151,56 @@ string integerText(int number, int position)
 	return result;
 }
 
-string NumberToText(int num)
+string NumberToText(int& num, int& Position)
 {
-	string Text = " ";
+	if (num == 0) return PlaceValue();
+	else return NumberToText(num, Position);
 
-	int current = 0;
-	for (int i = 1; num > 0; i++)
+	int CurrentNumber = 0;
+	int NextToNumber = 0;
+
+	CurrentNumber = num % 10;
+	num /= 10;
+	Position++;
+
+	if (CurrentNumber % 3 != 0)
 	{
-		current = num % 10;
+		NextToNumber = num % 10;
 
-		Text.insert(0, integerText(current, i));
+		if (NextToNumber == 1)
+		{
+			num /= 10;
+			Position++;
+			return ToTextInTens(CurrentNumber) + PlaceValue(Position);
+		}
 
-		num = num / 10;
+		return GetOnes(CurrentNumber) + PlaceValue(Position);
 	}
+	else
+	{
+		if (Position == 2)
+			return GetTens(CurrentNumber);
 
-	return Text;
+		// In hundrads
+		return GetOnes(CurrentNumber) + " Hundrad";
+	}
 }
 
-void ReadNumberTOTExt()
+string NumberToText(int &num)
+{
+	if ( == 0)
+		return "";
+	else
+	{
+		return 
+	}
+
+	
+
+	return 
+}
+
+void ReadNumberToText()
 {
 	int num = ReadNumber("Enter a Number: ");
 

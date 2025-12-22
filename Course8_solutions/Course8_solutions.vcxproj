@@ -126,8 +126,18 @@
     <ClCompile Include="Course8_solutions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Prob10_YearDaysToCertainDay.h" />
+    <ClInclude Include="Prob7_ReadDateAndPrintDayName.h" />
+    <ClInclude Include="Prob4_PrintNumberOfDaysInACertainYear.h" />
     <ClInclude Include="Prob2_IsLeapYear.h" />
-    <ClInclude Include="ReadNumberAndPrintItAsText.h" />
+    <ClInclude Include="Prob3_IsLeapYearOptimized.h" />
+    <ClInclude Include="Prob5_NumberOfDaysHoursMinutesSecondsInACertainMonth.h" />
+    <ClInclude Include="Prob8_PrintMonthCalendar.h" />
+    <ClInclude Include="Prob9_PrintYearCalendar.h" />
+    <ClInclude Include="ReadNumberAndPrintItAsText.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

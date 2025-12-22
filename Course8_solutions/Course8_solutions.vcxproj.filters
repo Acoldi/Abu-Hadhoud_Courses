@@ -26,5 +26,26 @@
     <ClInclude Include="Prob2_IsLeapYear.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Prob3_IsLeapYearOptimized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob4_PrintNumberOfDaysInACertainYear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob5_NumberOfDaysHoursMinutesSecondsInACertainMonth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob7_ReadDateAndPrintDayName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob8_PrintMonthCalendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob9_PrintYearCalendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prob10_YearDaysToCertainDay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
