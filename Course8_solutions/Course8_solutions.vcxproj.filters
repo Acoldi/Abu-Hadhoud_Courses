@@ -23,28 +23,91 @@
     <ClInclude Include="ReadNumberAndPrintItAsText.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob2_IsLeapYear.h">
+    <ClInclude Include="p10_YearDaysToCertainDay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob3_IsLeapYearOptimized.h">
+    <ClInclude Include="p2_IsLeapYear.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob4_PrintNumberOfDaysInACertainYear.h">
+    <ClInclude Include="p3_IsLeapYearOptimized.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob5_NumberOfDaysHoursMinutesSecondsInACertainMonth.h">
+    <ClInclude Include="p4_PrintNumberOfDaysInACertainYear.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob7_ReadDateAndPrintDayName.h">
+    <ClInclude Include="p5_NumberOfDaysHoursMinutesSecondsInACertainMonth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob8_PrintMonthCalendar.h">
+    <ClInclude Include="p7_ReadDateAndPrintDayName.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob9_PrintYearCalendar.h">
+    <ClInclude Include="p8_PrintMonthCalendar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Prob10_YearDaysToCertainDay.h">
+    <ClInclude Include="p9_PrintYearCalendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p11_NumberOfDaysToDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p12_AddingDaysToDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p13_DateIsLess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p14_DateIsEqual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p15_DateIsLastDayInMonthInYear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p16_IncreaseDateByOneDay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p17_DifferenceBetween2Dates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p18_YourAgeInDays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P19_DiffInDatesWithMinus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p33-46.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p47to53.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p54_VacationDays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p55_VacationReturnDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p56_DateIsAfter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p57_CompareDates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p58_PeriodsOverlap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p61_PeriodsOverlapDaysCount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p63_StringtoDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p65_FromatDate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

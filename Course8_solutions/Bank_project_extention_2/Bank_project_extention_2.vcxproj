@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f69cdaa3-497e-4797-9149-b7b13fd585e0}</ProjectGuid>
-    <RootNamespace>Course8solutions</RootNamespace>
+    <ProjectGuid>{2de60645-7dd7-4e7d-9a71-a4b21e0a3e9d}</ProjectGuid>
+    <RootNamespace>Bankprojectextention2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,42 +123,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Course8_solutions.cpp" />
+    <ClCompile Include="..\..\..\..\..\My Vaults\ALI%27S VAULT\CS\TM3\Abu-Hadhoud%27s course\Source 3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="p13_DateIsLess.h" />
-    <ClInclude Include="p10_YearDaysToCertainDay.h" />
-    <ClInclude Include="p11_NumberOfDaysToDate.h" />
-    <ClInclude Include="p12_AddingDaysToDate.h" />
-    <ClInclude Include="p14_DateIsEqual.h" />
-    <ClInclude Include="p15_DateIsLastDayInMonthInYear.h" />
-    <ClInclude Include="p16_IncreaseDateByOneDay.h" />
-    <ClInclude Include="p17_DifferenceBetween2Dates.h" />
-    <ClInclude Include="p18_YourAgeInDays.h" />
-    <ClInclude Include="P19_DiffInDatesWithMinus.h" />
-    <ClInclude Include="p20.h" />
-    <ClInclude Include="p2_IsLeapYear.h" />
-    <ClInclude Include="p33-46.h" />
-    <ClInclude Include="p3_IsLeapYearOptimized.h" />
-    <ClInclude Include="p47to53.h" />
-    <ClInclude Include="p4_PrintNumberOfDaysInACertainYear.h" />
-    <ClInclude Include="p54_VacationDays.h" />
-    <ClInclude Include="p55_VacationReturnDate.h" />
-    <ClInclude Include="p56_DateIsAfter.h" />
-    <ClInclude Include="p57_CompareDates.h" />
-    <ClInclude Include="p5_NumberOfDaysHoursMinutesSecondsInACertainMonth.h" />
-    <ClInclude Include="p61_PeriodsOverlapDaysCount.h" />
-    <ClInclude Include="p63_StringtoDate.h" />
-    <ClInclude Include="p65_FromatDate.h" />
-    <ClInclude Include="p7_ReadDateAndPrintDayName.h" />
-    <ClInclude Include="p8_PrintMonthCalendar.h" />
-    <ClInclude Include="p9_PrintYearCalendar.h" />
-    <ClInclude Include="p58_PeriodsOverlap.h" />
-    <ClInclude Include="ReadNumberAndPrintItAsText.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="Util.h" />
+    <ClInclude Include="Basics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

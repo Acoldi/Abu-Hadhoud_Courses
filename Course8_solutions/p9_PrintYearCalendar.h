@@ -1,7 +1,12 @@
 #pragma once
 
-#include "Prob8_PrintMonthCalendar.h"
+#include "p8_PrintMonthCalendar.h"
 
+void PrintHeader(int month, int width);
+void PrintCalendar(int month, int year, int width);
+void PrintLIne(int length);
+int ReadMonth();
+int ReadYear();
 
 
 void PrintCalendarYearHeader(int year, int width)

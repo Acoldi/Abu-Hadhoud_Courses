@@ -1,9 +1,12 @@
 #pragma once
 
-#pragma once
 #include <iostream>
 #include <iomanip>
-#include "Prob7_ReadDateAndPrintDayName.h"
+#include "Util.h"
+using namespace std;
+
+
+
 
 enum Month {
     JANUARY = 1,
@@ -19,6 +22,7 @@ enum Month {
     NOVEMBER,   
     DECEMBER    
 };
+
 
 std::string monthToString(int month) {
     switch (month) {
@@ -39,6 +43,7 @@ std::string monthToString(int month) {
     }
 }
 
+
 void PrintHeader(int month, int width)
 {
     if (width < 29) width = 29;
@@ -57,7 +62,9 @@ void PrintDays(int year, int month, int width)
 {
     int days = NumberOfDaysInMonth(year, month);
 
-    int startOfMonth = DayOrder(1, month, year);
+    enDayOrder dayorder = DayOrder(1, month, year);
+    int startOfMonth = dayorder;
+    
     startOfMonth++;
 
     int dayCounter = 1;

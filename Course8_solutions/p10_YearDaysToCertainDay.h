@@ -1,7 +1,6 @@
 #pragma once
 
-#include "Prob9_PrintYearCalendar.h"
-#include "Prob5_NumberOfDaysHoursMinutesSecondsInACertainMonth.h"
+#include "p8_PrintMonthCalendar.h"
 
 int ReadDay()
 {
@@ -25,7 +24,7 @@ int NumberOfDaysFromBeginingOfYear(int day, int month, int year)
 }
 
 
-void prob10_PrintNumberOfDaysTillCertainDay()
+void NumberOfDaysTillCertainDay()
 {
 	int Day = ReadDay();
 	int Month = ReadMonth();
@@ -34,5 +33,12 @@ void prob10_PrintNumberOfDaysTillCertainDay()
 	cout << "Number of days till " << Year << " " << Month << " " << Day << " is: ";
 
 	cout << NumberOfDaysFromBeginingOfYear(Day, Month, Year);
+}
+
+int NumberOfDaysTillCertainDay(int Year, int Day, int Month)
+{
+	 int result =  NumberOfDaysFromBeginingOfYear(Day, Month, Year);
+
+	 return result;
 }
 
