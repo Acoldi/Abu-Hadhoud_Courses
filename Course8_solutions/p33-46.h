@@ -63,7 +63,7 @@ Date DateDecreaseOneMonth(Date date) {
 	return date;
 }
 
-Date DecreaseMonthsToDate(Date date, int months) {
+Date DecreaseMonthsfromDate(Date date, int months) {
 	for (int i = 0; i < months; i++)
 	{
 		date = DateDecreaseOneMonth(date);
@@ -73,7 +73,7 @@ Date DecreaseMonthsToDate(Date date, int months) {
 
 Date DateDecreaseOneYear(Date date)
 {
-	return DecreaseMonthsToDate(date, 12);
+	return DecreaseMonthsfromDate(date, 12);
 }
 
 Date DateDecreaseYears(Date date, int years) {
@@ -138,7 +138,7 @@ void p33to46()
 
 	cout << "05-Decreaseing one month is: "; PrintDate(DateDecreaseOneMonth(date)); cout << endl;
 
-	cout << "06-Decreaseing 10 months is: "; PrintDate(DecreaseMonthsToDate(date, 10)); cout << endl;
+	cout << "06-Decreaseing 10 months is: "; PrintDate(DecreaseMonthsfromDate(date, 10)); cout << endl;
 
 	cout << "07-Decreaseing 1 year is: "; PrintDate(DateDecreaseOneYear(date)); cout << endl;
 

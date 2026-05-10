@@ -4,15 +4,7 @@
 #include "p11_NumberOfDaysToDate.h";
 
 
-Date ReadDate()
-{
-	Date date = Date();
-	date.day = ReadDay();
-	date.month = ReadMonth();
-	date.year = ReadYear();
 
-	return date;
-}
 void PrintDate(Date date) {
 	cout << date.year << "/" << date.month << "/" << date.day;
 }

@@ -4,7 +4,7 @@
 #include "p58_PeriodsOverlap.h"
 
 
-Date ReadDate(string date) {
+Date ReadDate() {
 	string dateText;
 	cout << "Enter date (dd/mm/yyyy): "; getline(cin >> ws, dateText);
 	

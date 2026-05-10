@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "../Course10-Solutions/DateLibrary/clsDate.h"
+#include "../Course8_solutions/p5_NumberOfDaysHoursMinutesSecondsInACertainMonth.h"
 using namespace std;
 
 struct Date
@@ -41,7 +43,7 @@ enDayOrder DayOrder(const Date& date)
     return DayOrder(date.day, date.month, date.year);
 }
 
-bool IsValidDate(Date Date)
+bool IsValidDate(clsDate Date)
 {
     return !(Date.month < 1 || Date.month > 12) ? !(Date.day < 1 || Date.day > NumberOfDaysInMonth(Date.month, Date.year)) : false;
 }

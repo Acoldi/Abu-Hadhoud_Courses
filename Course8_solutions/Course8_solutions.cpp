@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "ReadNumberAndPrintItAsText.h"
+#include "ReadNumberAndPrintItAsText.h"
 #include "p2_IsLeapYear.h"
 #include "p3_IsLeapYearOptimized.h"
 #include "p4_PrintNumberOfDaysInACertainYear.h"
@@ -31,7 +31,7 @@
 
 int main()
 {
-	//ReadNumberTOTExt();
+	ReadNumberToText();
 
 	//p2_IsleapYear();
 	
@@ -87,6 +87,6 @@ int main()
 
 	//p63();
 
-	p65();
+	//p65();
 }
 

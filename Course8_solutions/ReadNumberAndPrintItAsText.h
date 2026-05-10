@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <queue>
 
 using namespace std;
 
@@ -42,6 +43,44 @@ enum enDecimalPosition {
 	Billions = 10,
 	Trillions = 13,
 };
+
+enum enTen {
+	Eleven = 1,
+	Twelve,
+	Thirteen,
+	Fourteen,
+	Fifteen,
+	Sixteen,
+	Seventeen,
+	Eighteen,
+	Nineteen,
+};
+
+string GetFrom11To19(short numFrom1to19) {
+	switch ((enTen)numFrom1to19)
+	{
+	case Eleven:
+		return "Eleven";
+	case Twelve:
+		return "Twelve";
+	case Thirteen:
+		return "Thirteen";
+	case Fourteen:
+		return "Fourteen";
+	case Fifteen:
+		return "Fifteen";
+	case Sixteen:
+		return "Sixteen";
+	case Seventeen:
+		return "Seventeen";
+	case Eighteen:
+		return "Eighteen";
+	case Nineteen:
+		return "Nineteen";
+	default:
+		return "";
+	}
+}
 
 string GetOnes(int number)
 {
@@ -137,67 +176,41 @@ string GetDecimalPositions(int posittion)
 	}
 }
 
-string integerText(int number, int position)
+string NumberToText(int num)
 {
-	string result = "";
+	vector<int> v;
+	int d = 0;
+	string text = "";
 
-	if (position == 2)
-		result = GetTens(number);
-	else if (position % 1 == 0)
-		result = GetOnes(number).append(GetDecimalPositions(position));
-	if (position % 3 == 0)
-		result = GetOnes(number) + " Hundrads";
-
-	return result;
-}
-
-string NumberToText(int& num, int& Position)
-{
-	if (num == 0) return PlaceValue();
-	else return NumberToText(num, Position);
-
-	int CurrentNumber = 0;
-	int NextToNumber = 0;
-
-	CurrentNumber = num % 10;
-	num /= 10;
-	Position++;
-
-	if (CurrentNumber % 3 != 0)
-	{
-		NextToNumber = num % 10;
-
-		if (NextToNumber == 1)
-		{
-			num /= 10;
-			Position++;
-			return ToTextInTens(CurrentNumber) + PlaceValue(Position);
+	while (num > 0) {
+		v.push_back(num % 10);
+		num /= 10;
+	}
+	while (!v.empty()) {
+		d = v.back();
+		if (d == 0) {
+			v.pop_back();
+			continue;
 		}
-
-		return GetOnes(CurrentNumber) + PlaceValue(Position);
+		if (v.size() % 3 == 0) {
+			text += GetOnes(d) + " Hundrads";
+		}
+		else if (v.size() % 3 == 2) {
+			if (d == 1) {
+				v.pop_back();
+				d = v.back();
+				text += " " + GetFrom11To19(d);
+			}
+			else {
+				text += " " + GetTens(d);
+			}
+		}
+		else {
+			text += " " + GetOnes(d) + " " + GetDecimalPositions(v.size());
+		}
+		v.pop_back();
 	}
-	else
-	{
-		if (Position == 2)
-			return GetTens(CurrentNumber);
-
-		// In hundrads
-		return GetOnes(CurrentNumber) + " Hundrad";
-	}
-}
-
-string NumberToText(int &num)
-{
-	if ( == 0)
-		return "";
-	else
-	{
-		return 
-	}
-
-	
-
-	return 
+	return text;
 }
 
 void ReadNumberToText()
